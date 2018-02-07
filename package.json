@@ -1,6 +1,6 @@
 {
   "name": "qiniu-qupload",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个依赖qshell的七牛云同步插件",
   "main": "index.js",
   "directories": {
