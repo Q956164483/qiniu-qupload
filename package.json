@@ -1,0 +1,30 @@
+{
+  "name": "qiniu-qupload",
+  "version": "1.0.1",
+  "description": "一个依赖qshell的七牛云同步插件",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Q956164483/qiniu-qupload.git"
+  },
+  "keywords": [
+    "qiniu",
+    "upload",
+    "cdn"
+  ],
+  "author": "meishuchun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Q956164483/qiniu-qupload/issues"
+  },
+  "homepage": "https://github.com/Q956164483/qiniu-qupload#readme",
+  "dependencies": {
+    "shelljs": "^0.8.1"
+  }
+}

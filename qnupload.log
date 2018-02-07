@@ -1,0 +1,21 @@
+2018/02/07 14:54:13 [I] Load account from C:\Users\msc\.qshell\account.json
+2018/02/07 14:54:14 [E] Get bucket region info error, code: 401, bad token, xreqid: Eh4AAIN5Juai-BAV
+2018/02/07 14:54:50 [I] Load account from C:\Users\msc\.qshell\account.json
+2018/02/07 14:54:50 [E] Get bucket region info error, code: 401, bad token, xreqid: Eh4AAAvITmmr-BAV
+2018/02/07 14:56:01 [I] Load account from C:\Users\msc\.qshell\account.json
+2018/02/07 14:56:01 [I] Listing local sync dir, this can take a long time for big directory, please wait patiently
+2018/02/07 14:56:01 [I] Walk `F:\DEMO\upload-qiniu-with-qshell\test` start from 2018-02-07 14:56:01.6746316 +0800 CST m=+0.171430700
+2018/02/07 14:56:01 [I] Walking through `F:\DEMO\upload-qiniu-with-qshell\test`
+2018/02/07 14:56:01 [I] Walk `F:\DEMO\upload-qiniu-with-qshell\test` end at 2018-02-07 14:56:01.6746316 +0800 CST m=+0.171430700
+2018/02/07 14:56:01 [I] Walk `F:\DEMO\upload-qiniu-with-qshell\test` last for 0s
+2018/02/07 14:56:01 [I] Total file count cached 1
+2018/02/07 14:56:01 [I] Uploading file F:\DEMO\upload-qiniu-with-qshell\test\index.js => youfan : 11test/index.js
+2018/02/07 14:56:01 [I] Upload file `F:\DEMO\upload-qiniu-with-qshell\test\index.js` => `youfan : 11test/index.js` success
+2018/02/07 14:56:01 [I] -------------Upload Result--------------
+2018/02/07 14:56:01 [I]               Total:         1
+2018/02/07 14:56:01 [I]             Success:         1
+2018/02/07 14:56:01 [I]             Failure:         0
+2018/02/07 14:56:01 [I]        NotOverwrite:         0
+2018/02/07 14:56:01 [I]             Skipped:         0
+2018/02/07 14:56:01 [I]            Duration:     338.8915ms
+2018/02/07 14:56:01 [I] ----------------------------------------
