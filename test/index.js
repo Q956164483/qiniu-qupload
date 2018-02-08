@@ -12,4 +12,5 @@ const qnConf = {
   "log_file"      : "qnupload.log",
   "file_type"     : 0
 }
-qiniuUploader(qnConf)
+console.log('操作系统>>>', process.platform)
+// qiniuUploader(qnConf)
