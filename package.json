@@ -1,6 +1,6 @@
 {
   "name": "qiniu-qupload",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "依赖qshell的七牛云同步插件，配合gulp和webpack，可实现自动打包并上传html到服务器，其它静态资源到七牛cdn",
   "main": "index.js",
   "directories": {

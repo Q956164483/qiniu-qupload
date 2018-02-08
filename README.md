@@ -29,4 +29,4 @@ const qnConf = {
 }
 qiniuUploader(qnConf)
 ```
-#### 注意：src_dir参数mac和windows不一样，上面的为windows平台的示例，mac应该为path.resolve(process.cwd(), './test')但是我没验证，rc_dir参数以及其他完整配置请查看[qshell-qupload官方文档](https://github.com/qiniu/qshell/blob/master/docs/qupload.md)
+#### 注意：src_dir参数mac和windows不一样，上面的为windows平台的示例，mac应该为path.resolve(process.cwd(), './test')但是我没验证，src_dir参数以及其他完整配置请查看[qshell-qupload官方文档](https://github.com/qiniu/qshell/blob/master/docs/qupload.md)
