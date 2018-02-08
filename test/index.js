@@ -1,9 +1,10 @@
 const qiniuUploader = require('../index.js')
+const path = require('path')
 const qnConf = {
   /* eslint-disable  */
   "ak"            : "youAK",
   "sk"            : "youSK",
-  "src_dir"       : './test',
+  "src_dir"       : `${path.resolve(process.cwd(), './test').replace(/\\/g, '\\')}`,
   "bucket"        : "youBucket",
   "key_prefix"    : "11test/",
   "overwrite"     : true,

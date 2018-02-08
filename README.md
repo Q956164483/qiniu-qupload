@@ -1,19 +1,25 @@
-## qiniu-qupload
-### 注意：本插件依赖于七牛的命令行工具[qshell](https://developer.qiniu.com/kodo/tools/1302/qshell)和shelljs,之所以依赖qshell是为了方便维护，以免由于官方调整而改动代码
+## 准备
+本插件依赖于七牛的命令行工具qshell和shelljs,之所以依赖qshell是为了方便维护，以免由于官方调整而改动代码
 
-### 安装
+#### [qshell官方安装教程](https://developer.qiniu.com/kodo/tools/1302/qshell)
+
+#### 安装shelljs
+```
+npm install shelljs
+```
+## 安装
 ```
 npm install qiniu-qupload
 ```
-### 使用
-配置具体可以参考qshell的文档，本插件同步前会自动先删除key_prefix目录下的文件，然后上传，所以不用担心历史文件占用七牛空间的问题，另外src_dir参数做了优化，只用传相对路径即可
+## 使用
+配置具体可以参考qshell的文档，本插件同步前会自动先删除key_prefix目录下的文件，然后上传，所以不用担心历史文件占用七牛空间的问题，另外，七牛缓存比较严重，建议给文件都加指纹哦，插件有其他问题，可以直接在git提问
 ```javascript
 const qiniuUploader = require('qiniu-qupload')
+const path = require('path')
 const qnConf = {
-  /* eslint-disable  */
   "ak"            : "youAK",
   "sk"            : "youSK",
-  "src_dir"       : './test',
+  "src_dir"       : `${path.resolve(process.cwd(), './test').replace(/\\/g, '\\')}`,
   "bucket"        : "youBucket",
   "key_prefix"    : "11test/",
   "overwrite"     : true,
@@ -23,3 +29,4 @@ const qnConf = {
 }
 qiniuUploader(qnConf)
 ```
+### 注意：src_dir 参数mac和windows会有所，上面的为windows下面的示例，完整配置请查看[qshell-qupload官方文档](https://github.com/qiniu/qshell/blob/master/docs/qupload.md)

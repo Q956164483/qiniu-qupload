@@ -1,0 +1,9 @@
+{
+  "src_dir": "F:\\DEMO\\qiniu-qupload\\test",
+  "bucket": "test",
+  "key_prefix": "11test",
+  "overwrite": true,
+  "rescan_local": true,
+  "log_file": "qnupload.log",
+  "file_type": 0
+}

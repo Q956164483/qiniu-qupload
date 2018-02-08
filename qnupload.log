@@ -19,3 +19,52 @@
 2018/02/07 14:56:01 [I]             Skipped:         0
 2018/02/07 14:56:01 [I]            Duration:     338.8915ms
 2018/02/07 14:56:01 [I] ----------------------------------------
+2018/02/08 10:36:47 [I] Load account from C:\Users\msc\.qshell\account.json
+2018/02/08 10:36:47 [I] Listing local sync dir, this can take a long time for big directory, please wait patiently
+2018/02/08 10:36:47 [I] Walk `F:\DEMO\qiniu-qupload\test` start from 2018-02-08 10:36:47.7958365 +0800 CST m=+0.202514700
+2018/02/08 10:36:47 [I] Walking through `F:\DEMO\qiniu-qupload\test`
+2018/02/08 10:36:47 [I] Walk `F:\DEMO\qiniu-qupload\test` end at 2018-02-08 10:36:47.797836 +0800 CST m=+0.204514200
+2018/02/08 10:36:47 [I] Walk `F:\DEMO\qiniu-qupload\test` last for 1.9995ms
+2018/02/08 10:36:47 [I] Total file count cached 1
+2018/02/08 10:36:47 [I] Uploading file F:\DEMO\qiniu-qupload\test\index.js => test : 11testindex.js
+2018/02/08 10:36:47 [I] Upload file `F:\DEMO\qiniu-qupload\test\index.js` => `test : 11testindex.js` success
+2018/02/08 10:36:47 [I] -------------Upload Result--------------
+2018/02/08 10:36:47 [I]               Total:         1
+2018/02/08 10:36:47 [I]             Success:         1
+2018/02/08 10:36:47 [I]             Failure:         0
+2018/02/08 10:36:47 [I]        NotOverwrite:         0
+2018/02/08 10:36:47 [I]             Skipped:         0
+2018/02/08 10:36:47 [I]            Duration:     307.8183ms
+2018/02/08 10:36:47 [I] ----------------------------------------
+2018/02/08 10:37:19 [I] Load account from C:\Users\msc\.qshell\account.json
+2018/02/08 10:37:19 [I] Listing local sync dir, this can take a long time for big directory, please wait patiently
+2018/02/08 10:37:19 [I] Walk `F:\DEMO\qiniu-qupload\test` start from 2018-02-08 10:37:19.415408 +0800 CST m=+0.182456000
+2018/02/08 10:37:19 [I] Walking through `F:\DEMO\qiniu-qupload\test`
+2018/02/08 10:37:19 [I] Walk `F:\DEMO\qiniu-qupload\test` end at 2018-02-08 10:37:19.415408 +0800 CST m=+0.182456000
+2018/02/08 10:37:19 [I] Walk `F:\DEMO\qiniu-qupload\test` last for 0s
+2018/02/08 10:37:19 [I] Total file count cached 1
+2018/02/08 10:37:19 [I] Skip by local leveldb log for file `F:\DEMO\qiniu-qupload\test\index.js`
+2018/02/08 10:37:19 [I] -------------Upload Result--------------
+2018/02/08 10:37:19 [I]               Total:         1
+2018/02/08 10:37:19 [I]             Success:         0
+2018/02/08 10:37:19 [I]             Failure:         0
+2018/02/08 10:37:19 [I]        NotOverwrite:         0
+2018/02/08 10:37:19 [I]             Skipped:         1
+2018/02/08 10:37:19 [I]            Duration:     149.3983ms
+2018/02/08 10:37:19 [I] ----------------------------------------
+2018/02/08 10:44:50 [I] Load account from C:\Users\msc\.qshell\account.json
+2018/02/08 10:44:50 [I] Listing local sync dir, this can take a long time for big directory, please wait patiently
+2018/02/08 10:44:50 [I] Walk `F:\DEMO\qiniu-qupload\test` start from 2018-02-08 10:44:50.5348049 +0800 CST m=+0.195521300
+2018/02/08 10:44:50 [I] Walking through `F:\DEMO\qiniu-qupload\test`
+2018/02/08 10:44:50 [I] Walk `F:\DEMO\qiniu-qupload\test` end at 2018-02-08 10:44:50.5348049 +0800 CST m=+0.195521300
+2018/02/08 10:44:50 [I] Walk `F:\DEMO\qiniu-qupload\test` last for 0s
+2018/02/08 10:44:50 [I] Total file count cached 1
+2018/02/08 10:44:50 [I] Skip by local leveldb log for file `F:\DEMO\qiniu-qupload\test\index.js`
+2018/02/08 10:44:50 [I] -------------Upload Result--------------
+2018/02/08 10:44:50 [I]               Total:         1
+2018/02/08 10:44:50 [I]             Success:         0
+2018/02/08 10:44:50 [I]             Failure:         0
+2018/02/08 10:44:50 [I]        NotOverwrite:         0
+2018/02/08 10:44:50 [I]             Skipped:         1
+2018/02/08 10:44:50 [I]            Duration:     166.4427ms
+2018/02/08 10:44:50 [I] ----------------------------------------
